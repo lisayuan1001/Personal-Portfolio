@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisa Yuan's Projects</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .box-shadow{
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+    }
+    .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+    }
+    /* unvisited link */
+    a:link {
+        color: rgba(114, 114, 114, 0.879);
+    }
+
+    /* visited link */
+    a:visited {
+    color: rgba(146, 157, 55, 0.711);
+    }
+
+    /* mouse over link */
+    a:hover {
+    color: rgb(105, 115, 255);
+    }
+
+    /* selected link */
+    a:active {
+    color: rgb(45, 45, 192);
+    }
+    </style>
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top box-shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">LY's Portoflio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active" aria-current="page" href="projects.html">
+                    Projects
+                  </a>
+                </li>
+                
+              </ul>
+            
+          </div>
+        </div>
+    </nav>
+    <!--End Nav Bar-->
+    <!--Intro-->
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="display-6 fw-bold">My projects</h1>
+            <p class="lead text-muted">Check out some of my exercise projects below! </p>
+            <p>
+              <a href="projects.html#dividerbeforepacman" class="btn btn-outline-secondary my-2">See my projects</a>
+            </p>
+          </div>
+        </div>
+    </section>
+    <!--End Intro-->
+
+    <div class="b-example-divider"><a name="dividerbeforepacman"></a></div>
+    
+    <!--PacMan-->
+    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="fw-light">PacMan Exercise</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">This is a course project that is intended to practice how to build a Document Object Model (DOM) and let JavaScript and HTML interact with the browser to make the web page functional.</p>
+          <p class="lead mb-4">Click the button "Add PacMan" to create a brand new PacMan, that has a randomized position and velocity. Click the button "Start Game" to allow the PacMan(s) you created to move around. The PacMan(s) will hit the walls (which are boarders of the browser window) and bounce back.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <p>
+                <a href="https://github.com/lisayuan1001/PacMan.git" class="btn btn-outline-secondary my-2">GitHub reposition</a>
+            </p>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="img/PacMan screenshot.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+        </div>
+    </div>
+    <!--End PacMan-->
+    
+    <div class="b-example-divider"></div>
+
+    <!--Eye-->
+    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="fw-light">Eye Exercise</h1>
+        <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">This is a course project that is intended to practice how to apply CSS styles to creating web page layouts, and how CSS, HTML, and JavaScript work together.</p>
+      <p class="lead mb-4">Move around the mouse anywhere in the browser window, and observe how the two eyes are following where the mouse pointer is.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <p>
+            <a href="https://github.com/lisayuan1001/eye.git" class="btn btn-outline-secondary my-2">GitHub reposition</a>
+        </p>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="img/Eye screenshot.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+        </div>
+    </div>
+    <!--End Eye-->
+
+    <div class="b-example-divider"></div>
+    <!--Bus-->
+    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="fw-light">Real-Time Bus Tracker</h1>
+        <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">This is a course project that is intended to practice how to use asynchronous functions to fetch data, and how to use APIs with other platforms such as map tools and government databases.</p>
+      <p class="lead mb-4">You need to enter your own Google Maps JavaScript API key and Map ID in the code and the map will automatically run every 15 seconds to show the real-time location of the bus that connects Harvard and MIT. Below is a screen recording when the API key and Map ID are input.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <p>
+            <a href="https://github.com/lisayuan1001/Real-Time-Bus-Tracker.git" class="btn btn-outline-secondary my-2">GitHub reposition</a>
+        </p>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 100vh;">
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/0pO7Rft--ns" title="Screen Recording" allowfullscreen></iframe>
+      </div>
+    </div>
+        </div>
+    </div>
+    <!--End Bus-->
+
+</body>
+</html>
